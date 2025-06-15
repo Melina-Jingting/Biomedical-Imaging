@@ -1,0 +1,111 @@
+%
+% File acl2021.tex
+%
+%% Based on the style files for EMNLP 2020, which were
+%% Based on the style files for ACL 2020, which were
+%% Based on the style files for ACL 2018, NAACL 2018/19, which were
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2021}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\graphicspath{{figures/}}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{float}
+\usepackage{stfloats}
+\usepackage{alltt}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage[table]{xcolor}
+\usepackage{makecell}
+
+\renewcommand{\UrlFont}{\ttfamily\small}
+
+\usepackage{microtype}
+\usepackage{xcolor}
+
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily, columns=flexible, breaklines=true, mathescape=true}
+\usepackage{courier}
+\usepackage{float}
+
+\newcommand{\TODO}[1]{\textcolor{red}{TODO: #1}}
+
+\aclfinalcopy % Uncomment this line for the final submission
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+% Formal notation
+\renewcommand{\S}{\mathcal{S}}
+\newcommand{\R}{\mathcal{R}}
+\newcommand{\T}{\mathcal{T}}
+\newcommand{\A}{\mathcal{A}}
+\renewcommand{\P}{\mathcal{P}}
+
+\usepackage[english]{babel}
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{Section}
+\renewcommand{\subsubsectionautorefname}{Section}
+
+% Box for ai generated text
+\usepackage[most]{tcolorbox}
+\newtcblisting{aibox}[2][]{%
+  colback=gray!2!white,
+  colframe=black,
+  title={#2}, 
+  #1
+}
+\newcommand{\red}[1]{\colorbox{red!25!white}{#1}}
+
+\title{Predicting spread of Alzheimer’s disease pathology using brain  connectomes from different cognitive stages}
+\author{Melina Jingting binti Laimon}
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+    
+\end{abstract}
+
+\section{Introduction}
+\label{sec:Introduction}
+
+\input{sections/1-intro.tex}
+
+\section{Methods}
+\label{sec:Methods}
+
+\input{sections/2-methods.tex}
+
+
+\section{Results}
+\label{Results}
+
+\input{sections/3-results.tex}
+
+\section{Discussion}
+\label{sec:Discussion}
+
+\input{sections/4-discussion.tex}
+
+\bibliographystyle{acl_natbib}
+\bibliography{acl2021}
+
+
+\end{document}

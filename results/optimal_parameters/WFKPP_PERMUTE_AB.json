@@ -1,0 +1,802 @@
+[
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm008",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.587100743177325,
+    "r": 0.6137420470302271,
+    "SSE": 2.469278223699751
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm001",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5933035672050903,
+    "r": 0.6243212297154352,
+    "SSE": 2.3984362645600052
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm010",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.563663243177325,
+    "r": 0.5925679993614029,
+    "SSE": 2.7126411663821433
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm002",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.501163243177325,
+    "r": 0.6663809432184051,
+    "SSE": 2.524104903718208
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm007",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6033707698209836,
+    "r": 0.6304426271505987,
+    "SSE": 2.3690655103461724
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm003",
+    "seed_region": "Middletemporal",
+    "alpha": 0.5889218856788132,
+    "r": 0.6269628042422432,
+    "SSE": 2.365606142555055
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm005",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5708074765830753,
+    "r": 0.6408140727518092,
+    "SSE": 2.3612822033636447
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm004",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.3753513707072435,
+    "r": 0.687181220476176,
+    "SSE": 2.4016284991054784
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm006",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.542111986397216,
+    "r": 0.6869340908573848,
+    "SSE": 2.0916354067207257
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm009",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.6222422309221469,
+    "SSE": 2.3812532391288586
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm012",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6197966005659248,
+    "r": 0.6440230972033701,
+    "SSE": 2.2774806540048016
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm011",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6347200117339661,
+    "r": 0.6405832876896824,
+    "SSE": 2.301474520826746
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm014",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.563663243177325,
+    "r": 0.650962709588963,
+    "SSE": 2.3419541677367257
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm013",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5190856475633965,
+    "r": 0.6147414349156809,
+    "SSE": 2.6400164146037537
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm017",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5271923040389895,
+    "r": 0.6474325825314822,
+    "SSE": 2.3705225629542968
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm015",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6132826522624053,
+    "r": 0.5990871503868579,
+    "SSE": 2.557554167755151
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm016",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4210670200719685,
+    "r": 0.714801416845642,
+    "SSE": 2.1095872341085142
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm018",
+    "seed_region": "Middletemporal",
+    "alpha": 0.6205233450676856,
+    "r": 0.6236193164960103,
+    "SSE": 2.3566837318343854
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm019",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6230857435351556,
+    "r": 0.6222303771997713,
+    "SSE": 2.4272086777434594
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm020",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5345086036495498,
+    "r": 0.6651105159613107,
+    "SSE": 2.2284339036086305
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm021",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4955278791730435,
+    "r": 0.6754552777962721,
+    "SSE": 2.277526582248414
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm024",
+    "seed_region": "Middletemporal",
+    "alpha": 0.5469551320936067,
+    "r": 0.6326364089639461,
+    "SSE": 2.349303481366684
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm023",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4977571690967482,
+    "r": 0.689231651920326,
+    "SSE": 2.146451917615641
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm022",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5424457438562783,
+    "r": 0.6678416036854423,
+    "SSE": 2.276414737022185
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm025",
+    "seed_region": "Temporalpole",
+    "alpha": 0.571475743177325,
+    "r": 0.6152815706353928,
+    "SSE": 2.386071960673642
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm026",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.670963805973936,
+    "r": 0.5898450787662077,
+    "SSE": 2.520227622209261
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm028",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6069131876776869,
+    "r": 0.6265343179273084,
+    "SSE": 2.3800310605925796
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm027",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.501163243177325,
+    "r": 0.6835602274702237,
+    "SSE": 2.3382905761197086
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm030",
+    "seed_region": "Temporalpole",
+    "alpha": 0.5526298723080917,
+    "r": 0.6528427663886927,
+    "SSE": 2.202674781827947
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm031",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5551023660151996,
+    "r": 0.647862617458364,
+    "SSE": 2.3693357569134075
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm029",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.5981286882838812,
+    "SSE": 2.5454391786742296
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm032",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6221938693165977,
+    "r": 0.6388792041000563,
+    "SSE": 2.315291692624287
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm035",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5318221796746829,
+    "r": 0.6351208897131352,
+    "SSE": 2.409431918634698
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm033",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6211075703317948,
+    "r": 0.6161707081079907,
+    "SSE": 2.4476334759317644
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm034",
+    "seed_region": "Middletemporal",
+    "alpha": 0.5787402228653289,
+    "r": 0.5965123434379138,
+    "SSE": 2.5212790055339487
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm036",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5047639306798027,
+    "r": 0.6738669555887247,
+    "SSE": 2.244272773919355
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm038",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.680850743177325,
+    "r": 0.60536640868214,
+    "SSE": 2.43981593626867
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm039",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.5984941167668745,
+    "SSE": 2.5591316959936266
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm037",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5390491408959627,
+    "r": 0.686260872316037,
+    "SSE": 2.153497225256843
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm041",
+    "seed_region": "Temporalpole",
+    "alpha": 0.5387075910243101,
+    "r": 0.5772919359697646,
+    "SSE": 2.564488813741312
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm043",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.6213398528319691,
+    "SSE": 2.4089794917787817
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm040",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5372530145000831,
+    "r": 0.6597288153050492,
+    "SSE": 2.334134024408157
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm042",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5851021532195786,
+    "r": 0.6300585537777756,
+    "SSE": 2.422591089502979
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm044",
+    "seed_region": "Temporalpole",
+    "alpha": 0.4879315622785312,
+    "r": 0.6806086429811484,
+    "SSE": 2.0627199118670942
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm049",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.47713308444143393,
+    "r": 0.7118270723691635,
+    "SSE": 2.1561429767467386
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm045",
+    "seed_region": "Middletemporal",
+    "alpha": 0.5907612677535016,
+    "r": 0.5951145459512469,
+    "SSE": 2.5298746846499434
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm046",
+    "seed_region": "Middletemporal",
+    "alpha": 0.5645023559480677,
+    "r": 0.6543720610872161,
+    "SSE": 2.2250784561609955
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm050",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5280159489678806,
+    "r": 0.6860987219159976,
+    "SSE": 2.131090893767185
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm047",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6015581247540133,
+    "r": 0.6368237069026218,
+    "SSE": 2.351235008083187
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm048",
+    "seed_region": "Middletemporal",
+    "alpha": 0.5755840493019256,
+    "r": 0.5930087995257284,
+    "SSE": 2.5569791005197926
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm053",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.6163954958207456,
+    "SSE": 2.425864335010933
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm051",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5655047558468493,
+    "r": 0.6665797880773262,
+    "SSE": 2.19859336920791
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm052",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.48660429496228064,
+    "r": 0.6912718864769085,
+    "SSE": 2.2326063211321086
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm055",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5230320959285524,
+    "r": 0.6687591806940716,
+    "SSE": 2.1871090916576206
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm054",
+    "seed_region": "Temporalpole",
+    "alpha": 0.5108840054676119,
+    "r": 0.6359145380685464,
+    "SSE": 2.2877664575302785
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm057",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5433619752349641,
+    "r": 0.6636604268172583,
+    "SSE": 2.3038642981164634
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm056",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4604819868833374,
+    "r": 0.6954748120387179,
+    "SSE": 2.180669290177205
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm060",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.5923513372966079,
+    "SSE": 2.552573773539792
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm058",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.563398029348797,
+    "r": 0.6603990278222325,
+    "SSE": 2.2457234134574082
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm059",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5929883254461934,
+    "r": 0.6472887526548736,
+    "SSE": 2.3277753659400084
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm064",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.563663243177325,
+    "r": 0.6285108208987406,
+    "SSE": 2.4705562227667297
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm062",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.43866324317732497,
+    "r": 0.6917949063972882,
+    "SSE": 2.302428781490169
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm061",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5197066864070999,
+    "r": 0.6353884734947507,
+    "SSE": 2.4456356420496226
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm065",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.549667240965611,
+    "r": 0.6579174178674158,
+    "SSE": 2.2445038846260004
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm063",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.5923590392414633,
+    "SSE": 2.5951265878477376
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm066",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5286946127348217,
+    "r": 0.6340052537345272,
+    "SSE": 2.4332056033814617
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm067",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5782883988675616,
+    "r": 0.6767217699240053,
+    "SSE": 2.1315970671146616
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm068",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.680850743177325,
+    "r": 0.5876818687598749,
+    "SSE": 2.5154791626776656
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm070",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6051361847665315,
+    "r": 0.635369568803739,
+    "SSE": 2.323073783040214
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm069",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6352969942397384,
+    "r": 0.6372749504053926,
+    "SSE": 2.2925755788334
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm071",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.45428824317732497,
+    "r": 0.6697598237678369,
+    "SSE": 2.4222881200436617
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm072",
+    "seed_region": "Temporalpole",
+    "alpha": 0.4819791112323424,
+    "r": 0.6232397026237346,
+    "SSE": 2.3549559792590253
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm073",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5510263406297367,
+    "r": 0.6492455088798914,
+    "SSE": 2.35018954289863
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm076",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.41522574317732497,
+    "r": 0.6722092182093257,
+    "SSE": 2.558706614454087
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm075",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5498678173343995,
+    "r": 0.6554596915150165,
+    "SSE": 2.293280670161962
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm078",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5153469236831952,
+    "r": 0.6887710767210617,
+    "SSE": 2.1435847438285855
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm074",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4608770247842039,
+    "r": 0.6774714084602346,
+    "SSE": 2.4342568520172296
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm079",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.501163243177325,
+    "r": 0.6451260769879441,
+    "SSE": 2.5497772893162853
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm077",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.610538243177325,
+    "r": 0.6325076994531479,
+    "SSE": 2.3765863577121276
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm080",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5956321505222344,
+    "r": 0.6547823861762858,
+    "SSE": 2.230187265478605
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm081",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.6102458605078429,
+    "r": 0.6199227728706074,
+    "SSE": 2.409156517955314
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm083",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5642944323888789,
+    "r": 0.6756104655204337,
+    "SSE": 2.180789276494438
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm082",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.3542952427383139,
+    "r": 0.7201745667026888,
+    "SSE": 2.200172320765383
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm084",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5838899034721852,
+    "r": 0.6541952768483429,
+    "SSE": 2.259238949230426
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm086",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.44354731424831995,
+    "r": 0.7055616424137032,
+    "SSE": 2.2730237843776435
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm085",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.47842111488759365,
+    "r": 0.6926367369185022,
+    "SSE": 2.09595701079723
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm091",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.43289439982332034,
+    "r": 0.6932192625641392,
+    "SSE": 2.282629801423248
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm088",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5901469275909759,
+    "r": 0.6563891651242882,
+    "SSE": 2.259347545233818
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm093",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5565715009998062,
+    "r": 0.6546624881532513,
+    "SSE": 2.267285967802546
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm089",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.48832833023409905,
+    "r": 0.6806921418437972,
+    "SSE": 2.3588360929500114
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm092",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.680850743177325,
+    "r": 0.5671774941307975,
+    "SSE": 2.6205877283349412
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm090",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5363646615813549,
+    "r": 0.6651309830429974,
+    "SSE": 2.232475826443954
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm087",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5512480298881436,
+    "r": 0.6447467615623966,
+    "SSE": 2.401124391808721
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm094",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5687600110829115,
+    "r": 0.6329235452878498,
+    "SSE": 2.4716909141877523
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm097",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4726961163596027,
+    "r": 0.6518891568299763,
+    "SSE": 2.4285129531352947
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm095",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5611917572557997,
+    "r": 0.6477287120211573,
+    "SSE": 2.3455375986205547
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm096",
+    "seed_region": "Temporalpole",
+    "alpha": 0.5562870762097002,
+    "r": 0.6643059659646194,
+    "SSE": 2.1437743732129286
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm098",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.49094595932300034,
+    "r": 0.6807384480665929,
+    "SSE": 2.2025136898578874
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm099",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4276489806061876,
+    "r": 0.6183482591376713,
+    "SSE": 2.730045965679954
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm100",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.589212571657723,
+    "r": 0.6443646017579389,
+    "SSE": 2.3062470083957156
+  }
+]

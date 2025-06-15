@@ -1,0 +1,130 @@
+\subsection{Data}
+
+\subsubsection{Connectomes}
+We used structural connectomes for 168 participants in the Alzheimer’s Disease Neuroimaging Initiative (ADNI)\footnote{\url{https://adni.loni.usc.edu}} database, evenly distributed across four cognitive stages: cognitively normal (CN), early mild cognitive impairment (EMCI), late mild cognitive impairment (LMCI), and probable Alzheimer’s disease (AD). Each group thus contained 42 participants. For each individual, diffusion MRI and tractography were used to reconstruct whole-brain white matter fibers and generate a weighted, undirected connectivity matrix \citep{oxtobyDataDrivenSequenceChanges2017}. These matrices have node labels corresponding to cortical (and some subcortical) regions of interest, following a predefined parcellation scheme, and edge weights representing the number of streamlines between each pair of regions.
+
+\subsubsection{Tau PET data}\label{section:tau_data}
+We used tau PET scans from 242 ADNI participants who were classified as having elevated tau levels. We used group-averaged tau PET signals by averaging SUVR values across 242 individuals. These aggregated tau maps served as the “ground truth” against which we fit our various disease-spread models.
+
+\subsubsection{Amyloid PET data}\label{section:amyloid_data}
+We also incorporated group-averaged amyloid-beta (A$\beta$) measures (SUVRs) from 241 participants. Amyloid burden is widely believed to initiate upstream in the pathological cascade, potentially catalyzing or accelerating tau aggregation \citep{heCoupledmechanismsModellingFramework2023, weickenmeierPhysicsbasedModelExplains2019}. We therefore leveraged these A$\beta$ SUVR values to weight the local production term in our A$\beta$-FKPP model (see Section~\ref{sec:WeightedFKPP}). For subcortical regions, the amyloid PET intensities have been set to 1 (i.e., no additional weighting) to account for inaccuracies in measuring A$\beta$ in deep structures.
+
+\subsection{Connectome Metrics using the Brain Connectivity Toolbox}\label{section:connectome_metrics}
+For each individual's structural connectome, we computed all metrics listed below using the Python implementation of the Brain Connectivity Toolbox (BCT). \\
+
+Before calculating the metrics, each connectome matrix was min-max normalized. This normalization was applied to ensure that differences in overall connection strength between individuals did not bias the graph metrics, allowing for more valid comparisons across participants and groups. We verified that all metrics were computed using weighted undirected versions of the functions in BCT.\\
+
+For node-level metrics, specifically, node strength and clustering coefficient, we compared the mean values across all nodes as well as conducted between-node analyses. With a large number of 84 nodes, we focus the comparisons made by first conducting Kruskal–Wallis tests across all nodes, and then performing Dunn’s post-hoc tests only on the single node with the lowest KW p-value. Statistical tests are elaborated in Section~\ref{section:statistical_tests}.\\
+
+\subsubsection{Metrics}\label{section:connectome_metrics}
+\begin{itemize}
+    \item \textbf{Node strength}: The sum of the weights of all edges connected to a node. This indicates how strongly connected or “well-networked” a region is within the connectome. Nodes with high strength serve as hubs. In the context of pathology, such hubs could accumulate tau from multiple inputs or facilitate its wide dissemination to other regions due to their numerous strong connections.
+    \item \textbf{Clustering coefficient}: The fraction of a node’s neighbors that are also interconnected with each other. This measures the prevalence of tightly knit clusters (triangles) in the network around that node. This local interconnectedness might influence tau propagation by creating short loops for re-circulating or amplifying tau in a region’s vicinity.
+    \item \textbf{Global efficiency}: The average of the inverse shortest path lengths between all pairs of nodes. This reflects how efficiently information (or in this case, a spreading agent like tau) can be transferred across the whole brain network.
+    \item \textbf{Diffusion efficiency}: The inverse of the mean first-passage time for a random walker to travel between nodes on the network. This quantifies how quickly, on average, a signal (or tau protein) can reach any region from any other region via the connectome.
+    \item \textbf{Density}: The ratio of existing edges to possible edges in the network, ignoring weights. A higher density implies more pathways along which tau pathology can travel.
+\end{itemize}
+
+\subsubsection{Statistical test}\label{section:statistical_tests}
+We used the Kruskal-Wallis test as implemented in Scipy\footnote{\url{https://scipy.org/}} to assess whether the distributions of each connectome metric differed significantly across the four cognitive groups. This non-parametric test is appropriate given the non-normality of our data. We then performed Dunn's post-hoc tests as implemented in Scikit-learn\footnote{\url{https://scikit-learn.org/}} to identify which specific groups differed from each other, applying a Bonferroni correction for multiple comparisons.
+
+\subsection{Tau Propagation Models using the Network Spreading Models Toolbox}
+We modelled connectivity-mediated tau propagation using the Network Spreading Models (NSM) Toolbox \citep{thompsonDemonstrationOpensourceToolbox2024}, using specifically the toolbox's implementation of the models NDM, FKPP, weighted FKPP and model selection metric AICc.
+
+\subsubsection{Models}
+\begin{itemize}
+    \item \textbf{NDM}:
+    We use the network diffusion model (NDM) as the baseline. NDM as proposed in \citet{rajNetworkDiffusionModel2012} models the prion-like diffusion of tau based on connectivity. The model is defined as:
+    $$
+        \frac{d\mathbf{x}(t)}{dt} = -\beta H \mathbf{x}(t)
+    $$
+    where $\mathbf{x}(t)$ is the regional pathology at time $t$, $\beta$ is the diffusion constant, and $H$ connectome Laplacian. We set the diffusion constant $\beta$ to 1, since we are not calibrating the model to any specific time scale.
+
+    \item \textbf{FKPP}:
+    The Fisher-Kolmogoroc-Petrovsky-Piscounov FKPP \citep{weickenmeierPhysicsbasedModelExplains2019} couples diffusive propagation of tau with local logistic growth, and is expressed as:
+    $$
+    \frac{d\mathbf{x}(t)}{dt}
+    =
+    -\alpha H \mathbf{x}(t)
+    +
+    (1-\alpha)\mathbf{x}(t)(1-\mathbf{x}(t))
+    $$
+    Where $\alpha$ is the weight for spread contribution.
+
+    \item \textbf{Weighted-FKPP}\label{section:WeightedFKPP}: 
+    The Weighted-FKPP extends the basic FKPP equation by allowing for differing tau production levels at each node \citep{heCoupledmechanismsModellingFramework2023}. In our case, we scale the local growth term according to the local amyloid-$\beta$ (A$\beta$) level. For the rest of this paper, we will refer to this model as the \textbf{A$\beta$-FKPP}.
+    $$
+    \frac{d\mathbf{x}(t)}{dt}
+    =
+    -\alpha H \mathbf{x}(t)
+    +
+    \mathbf{v}(1-\alpha)\mathbf{x}(t)(1-\mathbf{x}(t))
+    $$
+    where $\mathbf{v}$ is a vector of regional production weights, and is set to be the local A$\beta$ level.
+\end{itemize}
+
+
+\subsubsection{Hyperparameter optimization}
+There are two key hyperparameters for these models: the seed region and the timepoint. The set of candidate seed regions is constrained to be hemisphere-agnostic, thereby reducing the number of nodes from 84 to 42. The candidate timepoints are defined within the range 0 to 50 in increments of 0.1, over which the model's performance is evaluated.\\ 
+
+In the Network Diffusion Model (NDM), the NSM Toolbox identifies the optimal seed region and timepoint via a grid search. In contrast, for the FKPP and Weighted-FKPP models, optimal $\alpha$ and seed are determined using Bayesian optimization with Gaussian Processes. In this approach, the objective function is defined as the sum of squared errors (SSE) between the model's output and the target data, evaluated at the optimal timepoint (i.e. the timepoint that minimizes the SSE).
+
+\subsection{Model Selection}
+We compare the performance of the three models using the following metrics:
+\begin{itemize}
+    \item \textbf{Sum of Squared Errors (SSE)}: 
+    The SSE quantifies the discrepancy between the predicted and observed tau levels. It is defined as:
+    $$SSE = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
+    where $y_i$ is the observed tau level, $\hat{y}_i$ is the predicted tau level, and $n$ is the number of regions.
+    
+    \item \textbf{Pearson's Correlation Coefficient ($r$)}:
+    We are also interested in measuring how well a model captures relative distribution of tau across regions. To do so, we compute the Pearson's correlation coefficient, defined as:
+    $$r = \frac{\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2} \sqrt{\sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}}$$
+    where $\bar{y}$ and $\bar{\hat{y}}$ are the means of the observed and predicted tau levels, respectively.\\
+    
+    \item \textbf{Akaike Information Criterion corrected (AICc)}: 
+    AIC measures relative quality of a statistical model for a given dataset, balancing goodness-of-fit with model complexity, penalizing models with more parameters. Lower AIC values indicate a better fit. It is defined as:
+    $$AIC = 2k - 2\ln(L)$$
+    where $k$ is the number of parameters in the model and $L$ is the likelihood of the model given the data.\\
+
+    AICc is a version of AIC that includes a correction for small sample sizes. It is defined as:
+    $$AICc = AIC + \frac{2k(k+1)}{n-k-1}$$
+    where $n$ is the sample size. \\
+
+    In our comparisons, $k$ is set to 2 for NDM (for seed and timepoint) and 3 for FKPP and A$\beta$-FKPP (for the additional $\alpha$). Here, we have simply taken each hyperparameter or parameter as an additional degree of freedom. To our best knowledge, there is no existing literature guiding parameter counting when considering a mix of discrete and continuous data. We did not consider $v$ in the A$\beta$-FKPP as an additional degree of freedom since this is prescribed as A$\beta$ levels.\\
+
+    \item \textbf{AICc weights}: These weights are derived from the AICc values and represent the relative probability of each model's ability to minimize information loss. They are calculated as:
+    $$w_i = \frac{e^{-\frac{1}{2}(\Delta AICc_i)}}{\sum_{j=1}^{m} e^{-\frac{1}{2}(\Delta AICc_j)}}$$
+    where $\Delta AICc_i = AICc_i - \min(AICc)$, and $m$ is the number of models. The weights sum to 1 across all models, allowing for direct comparison of their relative likelihoods.
+
+
+\end{itemize}
+
+
+\subsection{Robustness testing by fitting to individual connectomes} 
+To assess model stability, we extended our optimization procedure from group-averaged to individual participant connectomes. For all models, we maintained the group-averaged tau levels as target data (\autoref{section:tau_data}) and, for A$\beta$-FKPP, the group-averaged A$\beta$ levels, acknowledging the limitations of this approach. We calculated the mean and 95 percentile range of SSE and $r$ values across all participants. A robust model should exhibit minimal discrepancy between its performance on average connectomes and the mean performance across individual connectomes, along with a narrow percentile range. This approach distinguishes truly generalizable models from those whose performance may be artificially enhanced by connectome averaging. \\
+
+
+
+\subsubsection{Seed Subset Selection}
+When optimizing across individual connectomes, we used a subset of 5 candidate seeds, by first running the FKPP and A$\beta$-FKPP models on the first 10 connectomes from each cognitive group. We then selected all the optimal seeds found from these 40 connectomes, namely:
+\begin{itemize}
+    \item Inferiortemporal
+    \item Temporalpole
+    \item Amygdala
+    \item Entorhinal
+    \item Middletemporal (included in FKPP only)
+\end{itemize}
+
+
+\subsection{Verifying performance gain factors with null models}
+For this section, we did not constrain the seeds when running FKPP and did not reduce the number of calls in the Bayesion Optimizer.
+
+\subsubsection{Amyloid-$\beta$ maps}
+We verify the performance gains of our models from incorporating amyloid-beta and using the best performing cognitive group by conducting permutation tests against models trained on permuted amyloid-beta maps and rewired connectomes respectively.
+
+\subsubsection{Best performing group-averaged connectome}
+We will observe in \autoref{section:connectome_metrics_results} that connectome properties such as global efficiency, node strength distribution and clustering coefficient distribution can vary significantly across cognitive groups. We use a null model to verify that the improvements of models are a consequence of the specific connectome configuration of the best performing group-averaged connectome and not merely achieved by their graph properties. We generated 100 randomised connectomes for the best performing group-averaged connectome by iteratively rewiring them using the Brain Connectivity Toolbox\footnote{\url{https://pypi.org/project/bctpy/}}, with each matrix element rewired approximately ten times. Connectomes are rewired by randomly swapping pairs of edges to preserve the degree distribution of the network \citep{vasaNullModelsNetwork2022}.
+
+
+

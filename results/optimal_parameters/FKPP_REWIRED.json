@@ -1,0 +1,802 @@
+[
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm001",
+    "seed_region": "Putamen",
+    "alpha": 0.47772574317732497,
+    "r": 0.2425315198264143,
+    "SSE": 3.624073619649227
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm005",
+    "seed_region": "Entorhinal",
+    "alpha": 0.508975743177325,
+    "r": 0.2598932050997894,
+    "SSE": 3.6220227148220263
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm003",
+    "seed_region": "Caudate",
+    "alpha": 0.46196912177112304,
+    "r": 0.2072802656777189,
+    "SSE": 3.700220857589584
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm008",
+    "seed_region": "Entorhinal",
+    "alpha": 0.508975743177325,
+    "r": 0.20169137861994244,
+    "SSE": 3.6934467207268584
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm010",
+    "seed_region": "Fusiform",
+    "alpha": 0.45297320198075974,
+    "r": 0.3102386157481232,
+    "SSE": 3.4901806810595795
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm006",
+    "seed_region": "Inferiorparietal",
+    "alpha": 0.559234072420466,
+    "r": 0.2781909350240554,
+    "SSE": 3.5398460627133868
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm009",
+    "seed_region": "Bankssts",
+    "alpha": 0.30585074317732497,
+    "r": 0.30626007414173023,
+    "SSE": 3.608292939557029
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm011",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.3299904509574017,
+    "r": 0.49650601258475524,
+    "SSE": 2.8937493418659366
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm002",
+    "seed_region": "Cerebellum_Cortex",
+    "alpha": 0.45428824317732497,
+    "r": 0.3699643996246308,
+    "SSE": 3.3664967528410585
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm007",
+    "seed_region": "Fusiform",
+    "alpha": 0.649600743177325,
+    "r": 0.22689595537665264,
+    "SSE": 3.65374878955353
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm012",
+    "seed_region": "Middletemporal",
+    "alpha": 0.43866324317732497,
+    "r": 0.29159632715611294,
+    "SSE": 3.518930736219993
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm004",
+    "seed_region": "Putamen",
+    "alpha": 0.47772574317732497,
+    "r": 0.23856011555656448,
+    "SSE": 3.6198466260499993
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm013",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.46293761332461125,
+    "r": 0.2678046824917796,
+    "SSE": 3.563128829061703
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm015",
+    "seed_region": "Bankssts",
+    "alpha": 0.6293082926968894,
+    "r": 0.17666040196164057,
+    "SSE": 3.718067408009159
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm018",
+    "seed_region": "Middletemporal",
+    "alpha": 0.3275877765975711,
+    "r": 0.40283651869798975,
+    "SSE": 3.239446596320843
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm019",
+    "seed_region": "Lateralorbitofrontal",
+    "alpha": 0.5873001040075582,
+    "r": 0.3182981551102698,
+    "SSE": 3.529500241094015
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm017",
+    "seed_region": "Parahippocampal",
+    "alpha": 0.8818491839969841,
+    "r": 0.07842958315466647,
+    "SSE": 3.814236345647318
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm014",
+    "seed_region": "Hippocampus",
+    "alpha": 0.43498859484215097,
+    "r": 0.18139385523495333,
+    "SSE": 3.732625940438682
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm016",
+    "seed_region": "Entorhinal",
+    "alpha": 0.40741324317732497,
+    "r": 0.3713219497968041,
+    "SSE": 3.309941983544605
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm020",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4940711636980557,
+    "r": 0.29888107221141114,
+    "SSE": 3.4947078436291306
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm022",
+    "seed_region": "Entorhinal",
+    "alpha": 0.41522574317732497,
+    "r": 0.2813078595882524,
+    "SSE": 3.55095367342124
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm023",
+    "seed_region": "Fusiform",
+    "alpha": 0.34819997910193823,
+    "r": 0.4791154851829667,
+    "SSE": 2.957433975628506
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm024",
+    "seed_region": "Middletemporal",
+    "alpha": 0.43866324317732497,
+    "r": 0.41524776396575047,
+    "SSE": 3.191984208388979
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm021",
+    "seed_region": "Cerebellum_Cortex",
+    "alpha": 0.45428824317732497,
+    "r": 0.3462545978297052,
+    "SSE": 3.4005573662429973
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm027",
+    "seed_region": "Medialorbitofrontal",
+    "alpha": 0.46991324317732497,
+    "r": 0.24284707859164492,
+    "SSE": 3.6211799188311415
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm026",
+    "seed_region": "Middletemporal",
+    "alpha": 0.532413243177325,
+    "r": 0.25890271292692923,
+    "SSE": 3.5795022467342075
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm033",
+    "seed_region": "Caudate",
+    "alpha": 0.4570153483748352,
+    "r": 0.2732236339477585,
+    "SSE": 3.552336863523076
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm025",
+    "seed_region": "Parahippocampal",
+    "alpha": 0.618350743177325,
+    "r": 0.2068918131314518,
+    "SSE": 3.685289013959122
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm029",
+    "seed_region": "Bankssts",
+    "alpha": 0.641788243177325,
+    "r": 0.23883778406574094,
+    "SSE": 3.681311118587361
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm030",
+    "seed_region": "Inferiorparietal",
+    "alpha": 0.46832930816454704,
+    "r": 0.23745582258162842,
+    "SSE": 3.691347035945145
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm032",
+    "seed_region": "Middletemporal",
+    "alpha": 0.43866324317732497,
+    "r": 0.4015351040121683,
+    "SSE": 3.2204159581007312
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm031",
+    "seed_region": "Fusiform",
+    "alpha": 0.44145636679749184,
+    "r": 0.32564203214124315,
+    "SSE": 3.4396829870578727
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm028",
+    "seed_region": "Bankssts",
+    "alpha": 0.30585074317732497,
+    "r": 0.40669916151932606,
+    "SSE": 3.3850476830772425
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm036",
+    "seed_region": "Fusiform",
+    "alpha": 0.427073808405282,
+    "r": 0.2520830862344717,
+    "SSE": 3.618575891585524
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm034",
+    "seed_region": "Lateraloccipital",
+    "alpha": 0.3219944199943264,
+    "r": 0.45190114145367977,
+    "SSE": 3.0609036087277084
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm035",
+    "seed_region": "Fusiform",
+    "alpha": 0.4337038850190407,
+    "r": 0.33992988936723506,
+    "SSE": 3.3986925847773826
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm042",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4630656903843172,
+    "r": 0.35460050468653903,
+    "SSE": 3.3606279438972004
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm038",
+    "seed_region": "Inferiorparietal",
+    "alpha": 0.563663243177325,
+    "r": 0.17322148447184255,
+    "SSE": 3.7317194788732597
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm039",
+    "seed_region": "Fusiform",
+    "alpha": 0.37648056571400423,
+    "r": 0.34151927366122786,
+    "SSE": 3.422035656708114
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm041",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.3842199817120042,
+    "r": 0.32823911610444667,
+    "SSE": 3.4459167539984996
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm043",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.37123871544164605,
+    "r": 0.34837165899445,
+    "SSE": 3.4122347872927454
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm037",
+    "seed_region": "Hippocampus",
+    "alpha": 0.43085074317732497,
+    "r": 0.2818835005965964,
+    "SSE": 3.5345076106051008
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm047",
+    "seed_region": "Bankssts",
+    "alpha": 0.641788243177325,
+    "r": 0.16271237287358303,
+    "SSE": 3.7374102657782347
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm048",
+    "seed_region": "Bankssts",
+    "alpha": 0.30585074317732497,
+    "r": 0.3407063387390143,
+    "SSE": 3.5481517050624967
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm040",
+    "seed_region": "Fusiform",
+    "alpha": 0.3941543739261297,
+    "r": 0.3385336677371265,
+    "SSE": 3.427354095856335
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm045",
+    "seed_region": "Putamen",
+    "alpha": 0.24335074317732497,
+    "r": 0.38756765267541127,
+    "SSE": 3.2972844473989795
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm044",
+    "seed_region": "Middletemporal",
+    "alpha": 0.43866324317732497,
+    "r": 0.39895607089329505,
+    "SSE": 3.2415401339810304
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm046",
+    "seed_region": "Bankssts",
+    "alpha": 0.30585074317732497,
+    "r": 0.3895785157795829,
+    "SSE": 3.2630098921423456
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm049",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.36058112810972215,
+    "r": 0.4355138364046413,
+    "SSE": 3.120052711329246
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm050",
+    "seed_region": "Inferiorparietal",
+    "alpha": 0.5574668624332771,
+    "r": 0.22558250534901364,
+    "SSE": 3.6633071323968625
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm051",
+    "seed_region": "Rostralmiddlefrontal",
+    "alpha": 0.44647574317732497,
+    "r": 0.3037171589093792,
+    "SSE": 3.4891681467820845
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm053",
+    "seed_region": "Fusiform",
+    "alpha": 0.44275375095609626,
+    "r": 0.29941143131728754,
+    "SSE": 3.5349677296251
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm052",
+    "seed_region": "Fusiform",
+    "alpha": 0.41610390117696294,
+    "r": 0.4209352028850686,
+    "SSE": 3.1572054496470816
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm055",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4620399743181339,
+    "r": 0.35064957480479425,
+    "SSE": 3.368113194325465
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm058",
+    "seed_region": "Fusiform",
+    "alpha": 0.4284126768923268,
+    "r": 0.33023892005224265,
+    "SSE": 3.443075201299964
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm054",
+    "seed_region": "Thalamus_Proper",
+    "alpha": 0.5358310772804963,
+    "r": 0.23931937233041717,
+    "SSE": 3.630639895164283
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm057",
+    "seed_region": "Entorhinal",
+    "alpha": 0.41522574317732497,
+    "r": 0.29565405599886757,
+    "SSE": 3.5482657230649375
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm060",
+    "seed_region": "Lateraloccipital",
+    "alpha": 0.48553824317732497,
+    "r": 0.31778242784553445,
+    "SSE": 3.4535675818741605
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm056",
+    "seed_region": "Lateraloccipital",
+    "alpha": 0.3697821311562956,
+    "r": 0.42700141373443706,
+    "SSE": 3.1761045227343483
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm061",
+    "seed_region": "Lateraloccipital",
+    "alpha": 0.48553824317732497,
+    "r": 0.2987891235455388,
+    "SSE": 3.495445712066356
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm063",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4367959424415087,
+    "r": 0.2702081474281163,
+    "SSE": 3.56208246835997
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm064",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.47808828198780184,
+    "r": 0.23353011689599318,
+    "SSE": 3.6643360812203407
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm062",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.46679326807509747,
+    "r": 0.3576100442591129,
+    "SSE": 3.358039706724149
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm069",
+    "seed_region": "Entorhinal",
+    "alpha": 0.41522574317732497,
+    "r": 0.29335320475905413,
+    "SSE": 3.5116767800384183
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm068",
+    "seed_region": "Middletemporal",
+    "alpha": 0.540225743177325,
+    "r": 0.22018015851986777,
+    "SSE": 3.6520547733063435
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm066",
+    "seed_region": "Middletemporal",
+    "alpha": 0.532413243177325,
+    "r": 0.27825628532989055,
+    "SSE": 3.54039029854363
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm065",
+    "seed_region": "Fusiform",
+    "alpha": 0.43440956279491916,
+    "r": 0.26056814709814635,
+    "SSE": 3.5950090991943275
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm067",
+    "seed_region": "Cerebellum_Cortex",
+    "alpha": 0.3911377352936581,
+    "r": 0.39486302276506013,
+    "SSE": 3.2392410798616655
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm071",
+    "seed_region": "Lateraloccipital",
+    "alpha": 0.4930926579851294,
+    "r": 0.2954066125214216,
+    "SSE": 3.501973842086215
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm070",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.48862379367970005,
+    "r": 0.2711479789278681,
+    "SSE": 3.5685285909829263
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm072",
+    "seed_region": "Thalamus_Proper",
+    "alpha": 0.524600743177325,
+    "r": 0.19322829520424148,
+    "SSE": 3.697199870699455
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm073",
+    "seed_region": "Middletemporal",
+    "alpha": 0.532413243177325,
+    "r": 0.3066287019446422,
+    "SSE": 3.4772221273036465
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm075",
+    "seed_region": "Fusiform",
+    "alpha": 0.38397574317732497,
+    "r": 0.42353521464654054,
+    "SSE": 3.1491870956480104
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm074",
+    "seed_region": "Fusiform",
+    "alpha": 0.4064277755060196,
+    "r": 0.3344926795586694,
+    "SSE": 3.4900936253506156
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm076",
+    "seed_region": "Fusiform",
+    "alpha": 0.5566570436935957,
+    "r": 0.205688411479725,
+    "SSE": 3.6745286672740467
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm081",
+    "seed_region": "Fusiform",
+    "alpha": 0.6465366744259428,
+    "r": 0.16123927323357828,
+    "SSE": 3.7424793936402634
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm080",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4632705795444944,
+    "r": 0.33612490224810015,
+    "SSE": 3.403683001560691
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm077",
+    "seed_region": "Fusiform",
+    "alpha": 0.41294810524051545,
+    "r": 0.2971431089720095,
+    "SSE": 3.529052363262943
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm079",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.3911475235734109,
+    "r": 0.2698854185680685,
+    "SSE": 3.5648245868796504
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm078",
+    "seed_region": "Fusiform",
+    "alpha": 0.42751876271228956,
+    "r": 0.31327085289167106,
+    "SSE": 3.461465080881819
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm082",
+    "seed_region": "Bankssts",
+    "alpha": 0.6085284750595347,
+    "r": 0.12184111884688914,
+    "SSE": 3.7844150844243134
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm083",
+    "seed_region": "Bankssts",
+    "alpha": 0.5084399872145319,
+    "r": 0.22399245531491066,
+    "SSE": 3.646758872832603
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm084",
+    "seed_region": "Middletemporal",
+    "alpha": 0.49872860658405926,
+    "r": 0.25189297287005663,
+    "SSE": 3.601095091010735
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm085",
+    "seed_region": "Cuneus",
+    "alpha": 0.587482325813668,
+    "r": 0.16508651577750907,
+    "SSE": 3.7344072336145793
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm086",
+    "seed_region": "Caudalmiddlefrontal",
+    "alpha": 0.46210074317732497,
+    "r": 0.2864213664133741,
+    "SSE": 3.5278533243687145
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm087",
+    "seed_region": "Fusiform",
+    "alpha": 0.38397574317732497,
+    "r": 0.30070972451131306,
+    "SSE": 3.558055492894945
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm088",
+    "seed_region": "Bankssts",
+    "alpha": 0.6414683084048914,
+    "r": 0.13304277398929834,
+    "SSE": 3.772072062468132
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm089",
+    "seed_region": "Cerebellum_Cortex",
+    "alpha": 0.45428824317732497,
+    "r": 0.32875143379222116,
+    "SSE": 3.4358394835624293
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm090",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.5099761536099554,
+    "r": 0.21817902511763568,
+    "SSE": 3.6705363947410317
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm091",
+    "seed_region": "Caudate",
+    "alpha": 0.4607633808625597,
+    "r": 0.25934780297627763,
+    "SSE": 3.5863720362072025
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm094",
+    "seed_region": "Middletemporal",
+    "alpha": 0.532413243177325,
+    "r": 0.2595419419521392,
+    "SSE": 3.5824002036724396
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm092",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.45975946571361204,
+    "r": 0.3360394964558719,
+    "SSE": 3.4256158211160286
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm093",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.42497517958454284,
+    "r": 0.3809886412043339,
+    "SSE": 3.2825728576416857
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm096",
+    "seed_region": "Thalamus_Proper",
+    "alpha": 0.524600743177325,
+    "r": 0.19659414517937482,
+    "SSE": 3.693112939627625
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm095",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.4770945836899474,
+    "r": 0.2239698822767517,
+    "SSE": 3.7045638324360053
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm097",
+    "seed_region": "Bankssts",
+    "alpha": 0.30585074317732497,
+    "r": 0.36724380924048805,
+    "SSE": 3.498453595406399
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm100",
+    "seed_region": "Middletemporal",
+    "alpha": 0.43866324317732497,
+    "r": 0.3602353925547665,
+    "SSE": 3.33982476364625
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm098",
+    "seed_region": "Inferiortemporal",
+    "alpha": 0.696475743177325,
+    "r": 0.09110075787288303,
+    "SSE": 3.805466989924674
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm099",
+    "seed_region": "Fusiform",
+    "alpha": 0.39319625683916837,
+    "r": 0.33037672481128844,
+    "SSE": 3.422493104975093
+  },
+  {
+    "clinical_group_name": "CN",
+    "participant": "avg_perm059",
+    "seed_region": "Entorhinal",
+    "alpha": 0.41522574317732497,
+    "r": 0.3161623607743438,
+    "SSE": 3.4549344585529695
+  }
+]
